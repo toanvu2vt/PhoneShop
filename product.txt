@@ -1,0 +1,80 @@
+ <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone1.png" alt="">
+                    <div class="card-body">
+                        <h3>Samsung Galaxy Note 21</h3>
+
+                        <h5>29.000.000₫ <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone2.png" alt="">
+                    <div class="card-body">
+                        <h3>Apple iPhone 12 Mini New</h3>
+
+                        <h5>26.000.000₫ <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone3.png" alt="">
+                    <div class="card-body">
+                        <h3>iPhone 12 Pro Max Like New</h3>
+
+                        <h5>22.000.000₫<span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone4.png" alt="">
+                    <div class="card-body">
+                        <h3>iPhone XR - Vàng Chính Hãng</h3>
+
+                        <h5>8.000.000₫<span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone5.png" alt="">
+                    <div class="card-body">
+                        <h3>Xiaomi Mi 10T Pro 5G</h3>
+
+                        <h5>10.900.000₫<span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone6.png" alt="">
+                    <div class="card-body">
+                        <h3>iPhone 12 Hàng Quốc Tế</h3>
+
+                        <h5>26.000.000₫ <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone7.png" alt="">
+                    <div class="card-body">
+                        <h3>Samsung Galaxy S21 Ultra</h3>
+
+                        <h5>25.000.000₫<span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/phone8.png" alt="">
+                    <div class="card-body">
+                        <h3>iPhone 12 Pro Max Chính Hãng</h3>
+
+                        <h5>26.000.000₫<span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>

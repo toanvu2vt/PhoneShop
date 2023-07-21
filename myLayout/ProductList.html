@@ -1,0 +1,52 @@
+<div class="product-list mb-3" ng-app="myapp">
+    <div class="product_title border-bottom">
+        <div class="row">
+            <div class="col-md-4" id="title-block">
+                <h2 class="bg-danger text-white text-center">Điện thoại</h2>
+            </div>
+            <div class="col-md-8" id="title-block-ul">
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="product-cards">
+        <div class="row" ng-controller="myctrl">
+            <div class="col-3">
+                <img src="/images/panel-1.png" alt="" class="img-fluid py-3">
+                <img src="/images/panel-2.png" alt="" class="img-fluid py-3">
+            </div>
+            <div class="col-9">
+                <div class="row ">
+                    <div class="col-md-3 py-4" ng-repeat="item in products|filter: keywords|limitTo:8:begin">
+                        <div class="card mb-3 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="{{item.img}}">
+                                <div
+                                    class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-dark text-white"><i class="far fa-heart"
+                                                    ng-click="add_like(item)"></i></a>
+                                        </li>
+                                        <li><a class="btn btn-dark text-white mt-2" href="#!product"
+                                                ng-click="add_item(item)"></i class="far fa-eye"><i
+                                                    class="far fa-eye"></i></i></a></li>
+                                        <li><a class="btn btn-dark text-white mt-2"><i class="fas fa-cart-plus"
+                                                    ng-click="add(item)"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body  text-center">
+                                <a href="" class="h6 text-decoration-none ">{{item.name}}</a>
+
+                                <p class="text-center mb-0">{{item.price|currency: '' :0 }}đ</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

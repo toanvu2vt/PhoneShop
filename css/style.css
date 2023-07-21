@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#icons{
+    margin-left: 45px;
+}
+#icons i{
+    font-size: 20px;
+    color: #252525;
+    margin-left: 10px;
+    cursor: pointer;
+    transition:color 0.3s ease;
+}
+#icons i:hover{
+    color:var(--pink)!important;
+}
+
+#btn-login{
+    border: 2px solid #252525;
+    color: #252525;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-login a{
+    text-decoration: none;
+    color: #252525;
+    transition: 0.5s ease;
+}
+#btn-login a:hover{
+    background-color: #252525;
+    color: white;
+}
+#btn-login:hover{
+    background-color: #252525;
+    color: white;
+}
+#btn-signup{
+    border: 2px solid #252525;
+    color: #252525;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-signup a{
+    text-decoration: none;
+    color: #252525;
+    transition: 0.5s ease;
+}
+#btn-signup a:hover{
+    background-color: #252525;
+    color: white;
+}
+#btn-signup:hover{
+    background-color: #252525;
+    color: white;
+}
+
+#btn-search{
+    border: 2px solid #252525;
+    color: #252525;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: white;
+}
+
+#btn-search:hover{
+    background-color: #252525;
+    color: white;
+}
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section-footer{
+    color: white;
+}
+
+.section-footer ul li {
+    margin-bottom: 5px;
+  }
+.section-footer ul a {
+    color: inherit;
+    text-decoration: none;
+  }
+.section-footer ul a:hover {
+    color: #3167eb;
+  }
+.section-footer .logo-footer {
+    height: 40px;
+  }
+.section-footer .title {
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #212529;
+  }
+  
+.footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+.footer-copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cate-list .category-icon img{
+    width: 5%;
+}
+
+.product-list img{
+    transition: all 0.3s ease;
+}
+#title-block {
+    display: block;
+    width: 200px;
+    border-bottom: solid 2px #eb3e32;
+    margin: 0 0 10px;
+}
+
+
+#product-cards .card{
+    box-shadow: rgba(219, 193, 111, 0.2) 0px 7px 29px 0px;
+}
+#product-cards h5{
+    font-weight: bold;
+    inset-block: none;
+    color: inherit;
+    text-decoration: none;
+}
+#product-cards p{
+    color: red;
+    text-decoration: none;
+}
+#product-cards p span{
+    float: right;
+    cursor: pointer;
+    color: darkgray;
+    color: inherit;
+    text-decoration: none;
+}
+.checked{
+    color: rgb(255, 187, 0);
+}
+#popular span{
+    color:red;
+}
+
+#tempaltemo_footer a { color: #dcdde1;}
+#tempaltemo_footer a:hover { color: #68bb7d;}
+#tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#tempaltemo_footer .border-light { border-color: #2d343f !important;}
+
+
+/* login */
+.login{
+    width: 100%;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+#side1{
+    background-color: #212529;
+    height: 76vh;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#side1 h3{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+}
+#side1 p{
+    color: white;    
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+#btn{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#btn a{
+    text-decoration: none;
+    color: white;
+}
+#side2{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+}
+#side2 h3{
+    margin-top: 50px;
+    color: #212529;
+    font-weight: bold;
+}
+#side2 .inp{
+    margin-top: 32px;
+}
+#side2 input{
+    width: 500px;
+    margin-top: 20px;
+    height: 36px;
+    align-items: center;
+}
+#side2 p{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#side2 .icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#login{
+    margin-top: 10px;
+}
+#login button{
+    width: 200px;
+    height: 32px;
+    color: white;
+    background-color: #212529;
+    border: none;
+    font-weight: bold;
+}
+@media screen and (max-width:992px){
+    #side2 input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:330x){
+    #side2 input{
+        width: 200px;
+    }
+}
+
+#contact{
+    margin-top: 50px;
+}
+#contact h1{
+    color: #212529;
+    text-shadow: 0px 0px 1px black;
+}
+#contact .card{
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+}#messagebtn button{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid #1c1c50;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+#messagebtn button:hover{
+    background-color: #212529;
+    color: white;
+}
+/* contact */
+
+
+.mymaincontent{
+    margin-top:100px;
+}
+
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+.product-wap .product-color-dot.color-dot-red { background:#f71515;}
+.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
+.product-wap .product-color-dot.color-dot-black { background:#000000;}
+.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
+.product-wap .product-color-dot.color-dot-green { background:#393E46;}
+.card.product-wap .card .product-overlay {
+  background: rgba(0,0,0,.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a { color: #000;}
+#carousel-related-product .slick-slide:focus { outline: none !important;}
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}

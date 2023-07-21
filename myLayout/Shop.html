@@ -1,0 +1,61 @@
+<div class="container py-5">
+    <div class="row">
+        <h1 class="h2 pb-4 text-center">Điện thoại</h1>
+        <div class="row">
+            <div class="col">
+                <input ng-model="keywords" type="text" class="form-control bg-white" placeholder="Search"
+                    style="width: 50%; margin: auto;">
+
+                <ul class="list-inline shop-top-menu pb-3 pt-1 text-end">
+                    <li class="list-inline-item">
+                        <a class="h3 text-dark text-decoration-none " ng-click="keywords ='iPhone'">Iphone</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="h3 text-dark text-decoration-none " ng-click="keywords ='Xiaomi'">Xiaomi</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="h3 text-dark text-decoration-none" ng-click="keywords ='Samsung'">Samsung</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="h3 text-dark text-decoration-none" ng-click="keywords ='Nokia'">Nokia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3" ng-repeat="item in products|filter: keywords| limitTo: productsLimit()">
+            <div class="card mb-3 product-wap rounded-0">
+                <div class="card rounded-0">
+                    <img class="card-img rounded-0 img-fluid" src="{{item.img}}">
+                    <div
+                        class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-dark text-white"><i class="far fa-heart"
+                                        ng-click="add_like(item)"></i></a>
+                            </li>
+                            <li><a class="btn btn-dark text-white mt-2" href="#!product" ng-click="add_item(item)"></i
+                                        class="far fa-eye"><i class="far fa-eye"></i></i></a></li>
+                            <li><a class="btn btn-dark text-white mt-2"><i class="fas fa-cart-plus"
+                                        ng-click="add(item)"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body text-center">
+                    <a href="" class="h3 text-decoration-none">{{item.name}}</a>
+
+                    <p class="text-center mb-0" style="color: red;">{{item.price|currency: '' :0 }}đ</p>
+                </div>
+
+            </div>
+        </div>
+        <button class="btn btn-dark btn-lg text-center " ng-show="hasMoreproductsToShow()" ng-click="showMoreproducts()"
+            style="width: 25%; margin: auto;">Xem
+            thêm</button>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<!-- End Content -->

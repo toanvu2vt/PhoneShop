@@ -1,0 +1,61 @@
+<div class="container py-3">
+    <div class="row">
+        <div class="col-md-2">
+            <h2><a class="h2 text-success border-bottom pb-3 border-lights" href="#!home"
+                    style="text-decoration: none;">Phone Shop</a> </h2>
+        </div>
+        <div class="col-md-6">
+            <div class="input-group mb-3">
+                <input ng-model="keywords" type="text" class="form-control bg-white" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" id="btn-search" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-5">
+                    <a href="#!card" class="position-relative">
+                        <span class="fs-3"><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            {{cart.length}}
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-5">
+                    <a href="#!like" class="position-relative">
+                        <span class="fs-3"><i class="fa-solid fa-heart"></i></span>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            {{like.length}}
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="fs-3">
+                                <i class="fa fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            Welcome!<br>
+                            <b><a class="text-danger" style="text-decoration: none;" href="#!login">Sign
+                                    in</a></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

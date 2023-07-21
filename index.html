@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.js"></script>
+</head>
+
+<body ng-app="myapp">
+    <!-- header -->
+    <section class="myheader bg-white fixed-top">
+        <div ng-include="'myLayout/Header.html'"></div>
+    </section>
+    <section class="mymainmenu bg-dark" style="margin-top: 100px">
+        <!-- Menu -->
+        <div ng-include="'myLayout/Menu.html'"></div>
+    </section>
+    <section class="mymaincontent my-3">
+        <div class="container" ng-controller="myctrl">
+            <div ng-show="loading" class="pull-right lable lable-info">Loading....</div>
+            <div ng-view></div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer ng-include="'myLayout/Footer.html'"></footer>
+
+
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="wepapp.js"></script>
+    <script src="myLayout/products.js"></script>
+</body>
+
+</html>

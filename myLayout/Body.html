@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="/assets/vendors/jquery.min.js"></script>
+    <script src="/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-route.js"></script>
+</head>
+
+<body ng-app="myapp">
+    <div ng-include="'/myLayout/Slider.html'"></div>
+    <div ng-include="'/myLayout/Cate.html'"></div>
+    <div ng-include="'/myLayout/ProductList.html'"></div>
+    <div ng-include="'/myLayout/ProductsPopular.html'"></div>
+
+
+    <script src="/wepapp.js"></script>
+    <script src="products.js"></script>
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: false,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 4,
+                },
+                600: {
+                    items: 6,
+                    nav: false
+                },
+                1000: {
+                    items: 8,
+                    loop: false,
+                    margin: 20
+                }
+            }
+        })
+    })
+</script>
